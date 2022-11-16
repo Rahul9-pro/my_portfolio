@@ -1,0 +1,173 @@
+body {
+    font-family: sans-serif;
+    /*main backgroud color*/
+    background: linear-gradient(-45deg, #ee337b, #1ca6d8, #9ed5ea);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+.header {
+    background-color: var(--color-1);
+    padding: 12px 0;
+    line-height: 1.5;
+}
+
+.header .logo {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.header .logo,
+.header .nav {
+    padding: 0 15px;
+}
+
+.header .nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.header .logo a {
+    font-size: 2rem;
+    color: #0e0a0a;
+    text-transform: capitalize;
+}
+
+.header .nav ul li a {
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #1a1313;
+
+    transition: all 0.5s ease;
+    margin-left: 40px;
+}
+
+.header .nav ul li a.active,
+.header .nav ul li a:hover {
+    color: #f3a93d;
+}
+
+            /*---------------------Header Ended--------------------*/
+
+#education {
+    font-size: 2rem;
+    color: rgb(32, 107, 164);
+    margin-top: 60px;
+   
+}
+
+.tab-1 {
+    font-family: Arial, Helvetica, sans-serif Arial, 'Segoe UI', Tahoma, Geneva, Verdana, 'Franklin Gothic Medium';
+    margin-left: 30px;
+}
+
+#language h2 {
+    color: rgb(9, 96, 167);
+    font-size: 3rem;
+}
+
+#language li {
+    flex-direction: row;
+    padding: 40px;
+}
+
+#language li span {
+    color: rgb(84, 38, 190);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#language .percent {
+    position: absolute;
+    width: 60%;
+    background: #418ce1;
+    height: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    overflow: hidden;
+}
+
+#language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(24, 220, 220);
+}
+
+.tab-2 {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif Arial, 'Segoe UI', Tahoma, Geneva, Verdana, 'Franklin Gothic Medium';
+   
+}
+.tab_contents{
+    
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.skills .box {
+    
+    position: relative;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.skills h3{
+    font-size: 3rem;
+    color: rgb(18, 79, 118);
+}
+
+.skills .box .percentage {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #3c9de7;
+}
+
+.skills .box .percentage div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(23, 206, 206);
+}
